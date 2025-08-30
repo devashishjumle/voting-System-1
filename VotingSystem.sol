@@ -4,7 +4,7 @@ pragma solidity ^0.8.17;
 contract VotingSystem {
     struct Candidate {
         string name;
-        uint voteCount;
+        uint   voteCount;
     }
 
     address public owner;
