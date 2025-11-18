@@ -10,7 +10,7 @@ contract VotingSystem {
     address public owner;
     bool public votingEnded;
     mapping(address => bool) public hasVoted;
-    Candidate[] public candidates;
+    Candidate[] public   candidates;
 
     event Voted(address indexed voter, uint indexed candidateIndex);
     event VotingEnded();
